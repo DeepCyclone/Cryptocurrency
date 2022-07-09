@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62762fa8-4435-4d08-9dad-a05703d257a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="62762fa8-4435-4d08-9dad-a05703d257a7" name="Changes" comment="Initial build">
+      <change afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/CurrencyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/idfinance/core/CoreApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/idfinance/persistence/PersistenceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/persistence" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -76,10 +76,13 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "aspect.path.notification.shown": "true",
     "jdk.selected.JAVA_MODULE": "11 (2)",
-    "last_opened_file_path": "C:/Users/Alexey/IdeaProjects/cryptocurrency_app/persistence/src/main/resources"
+    "last_opened_file_path": "C:/Users/Alexey/IdeaProjects/cryptocurrency_app/persistence/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "851062a30fb9c4a876669e84e95837ed"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -117,7 +120,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657395124558</updated>
-      <workItem from="1657395126797" duration="4781000" />
+      <workItem from="1657395126797" duration="6446000" />
+      <workItem from="1657402790858" duration="41000" />
     </task>
     <servers />
   </component>
@@ -134,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial build" />
   </component>
 </project>

@@ -15,8 +15,7 @@
       <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/idfinance/persistence/PersistenceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c6b5862-0d91-4d31-b02e-db28f32867c4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5c6b5862-0d91-4d31-b02e-db28f32867c4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -44,7 +43,28 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/persistence" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -82,6 +102,7 @@
     "jdk.selected.JAVA_MODULE": "11 (2)",
     "last_opened_file_path": "C:/Users/Alexey/IdeaProjects/cryptocurrency_app/persistence/src/main/resources",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "spring.configuration.checksum": "851062a30fb9c4a876669e84e95837ed"
   },
   "keyToStringList": {
@@ -121,8 +142,16 @@
       <option name="presentableId" value="Default" />
       <updated>1657395124558</updated>
       <workItem from="1657395126797" duration="6446000" />
-      <workItem from="1657402790858" duration="41000" />
+      <workItem from="1657402790858" duration="561000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial build">
+      <created>1657402877704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657402877704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +169,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/core" />
+      <path value="$PROJECT_DIR$/persistence" />
+    </ignored-roots>
     <MESSAGE value="Initial build" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial build" />
   </component>

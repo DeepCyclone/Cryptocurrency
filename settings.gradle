@@ -1,0 +1,5 @@
+rootProject.name = 'cryptocurrency_app'
+include 'persistence'
+include 'core'
+include 'web'
+

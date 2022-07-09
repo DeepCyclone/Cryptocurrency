@@ -1,0 +1,9 @@
+dependencies {
+    implementation 'org.hibernate:hibernate-core:6.1.0.Final'
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '4.0.3'
+    implementation 'mysql:mysql-connector-java:8.0.28'
+//    testImplementation 'org.hsqldb:hsqldb:2.6.1'
+}
+
+
+

@@ -45,19 +45,4 @@ subprojects {
     test {
         useJUnitPlatform()
     }
-
-    springBoot {
-        mainClass = 'com.idfinance.AppRunner'
-    }
 }
-
-dependencies {
-    implementation project(':web')
-}
-
-bootJar {
-    manifest {
-        attributes 'Start-Class': 'com.epam.esm.AppRunner'
-    }
-}
-

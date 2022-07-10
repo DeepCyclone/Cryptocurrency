@@ -4,20 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62762fa8-4435-4d08-9dad-a05703d257a7" name="Changes" comment="Initial build">
-      <change afterPath="$PROJECT_DIR$/core/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/CurrencyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/idfinance/core/CoreApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/idfinance/persistence/PersistenceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5c6b5862-0d91-4d31-b02e-db28f32867c4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5c6b5862-0d91-4d31-b02e-db28f32867c4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="62762fa8-4435-4d08-9dad-a05703d257a7" name="Changes" comment="add modules">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fefb6ab2816ceeb0b2215477ac96a48874358b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3517e30bc044ad07b06af0993a3d651366df1a58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7738dd57c326e3676254d18474b14b5d67d7b75c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f16fff20c9abaf19044c2da043c6677c1119e28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a619d851577759c4bebb7069fe9aea3269ab1ad0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6dfbf374c2970a48ac1abb1f69d0093de9fbcc7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/impl/CurrencyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/idfinance/controller/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/idfinance/controller/CurrencyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +75,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
@@ -93,8 +101,12 @@
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -115,6 +127,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alexey\IdeaProjects\cryptocurrency_app\persistence\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.idfinance.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -123,7 +138,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CryptoCurrencyMain">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="CryptoCurrencyMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="cryptocurrency_app.web.main" />
@@ -132,6 +150,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,7 +165,8 @@
       <option name="presentableId" value="Default" />
       <updated>1657395124558</updated>
       <workItem from="1657395126797" duration="6446000" />
-      <workItem from="1657402790858" duration="561000" />
+      <workItem from="1657402790858" duration="700000" />
+      <workItem from="1657440970734" duration="16921000" />
     </task>
     <task id="LOCAL-00001" summary="Initial build">
       <created>1657402877704</created>
@@ -151,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657402877704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add modules">
+      <created>1657403407463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657403407463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +205,18 @@
       <path value="$PROJECT_DIR$/persistence" />
     </ignored-roots>
     <MESSAGE value="Initial build" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial build" />
+    <MESSAGE value="add modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modules" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/com/idfinance/service/impl/CurrencyServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

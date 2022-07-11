@@ -26,6 +26,6 @@ public class CurrencyServiceImpl implements CurrencyService {
 
     @Override
     public void updateCurrency(String currencyName, BigDecimal value) {
-        currencyRepository.save()
+//        currencyRepository.save()
     }
 }

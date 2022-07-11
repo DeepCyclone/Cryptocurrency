@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62762fa8-4435-4d08-9dad-a05703d257a7" name="Changes" comment="add modules">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fefb6ab2816ceeb0b2215477ac96a48874358b1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3517e30bc044ad07b06af0993a3d651366df1a58" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7738dd57c326e3676254d18474b14b5d67d7b75c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f16fff20c9abaf19044c2da043c6677c1119e28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a619d851577759c4bebb7069fe9aea3269ab1ad0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6dfbf374c2970a48ac1abb1f69d0093de9fbcc7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/impl/CurrencyServiceImpl.java" afterDir="false" />
+    <list default="true" id="62762fa8-4435-4d08-9dad-a05703d257a7" name="Changes" comment="project structure build">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/idfinance/fetcher/FetchScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/CurrencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/idfinance/model/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/idfinance/controller/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/idfinance/controller/CurrencyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/impl/CurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/idfinance/service/impl/CurrencyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/idfinance/config/TaskSchedulerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/idfinance/fetcher/FetcherRunnable.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +103,7 @@
     "last_opened_file_path": "C:/Users/Alexey/IdeaProjects/cryptocurrency_app/persistence/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "851062a30fb9c4a876669e84e95837ed"
+    "spring.configuration.checksum": "bda51f536103c635997e60daf871c70e"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -166,7 +154,8 @@
       <updated>1657395124558</updated>
       <workItem from="1657395126797" duration="6446000" />
       <workItem from="1657402790858" duration="700000" />
-      <workItem from="1657440970734" duration="16921000" />
+      <workItem from="1657440970734" duration="17012000" />
+      <workItem from="1657540783220" duration="13270000" />
     </task>
     <task id="LOCAL-00001" summary="Initial build">
       <created>1657402877704</created>
@@ -182,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657403407463</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project structure build">
+      <created>1657489693981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657489693981</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +202,8 @@
     </ignored-roots>
     <MESSAGE value="Initial build" />
     <MESSAGE value="add modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="add modules" />
+    <MESSAGE value="project structure build" />
+    <option name="LAST_COMMIT_MESSAGE" value="project structure build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

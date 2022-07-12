@@ -1,5 +1,6 @@
 package com.idfinance.dto.converter;
 
+import com.idfinance.dto.request.CurrencyRequestDto;
 import com.idfinance.dto.response.CurrencyResponseDto;
 import com.idfinance.model.Currency;
 import org.mapstruct.Mapper;
@@ -14,5 +15,6 @@ public interface CurrencyConverter {
 
     CurrencyResponseDto fromModel(Currency currency);
     List<CurrencyResponseDto> fromModels(List<Currency> currency);
-    Currency toModel(CurrencyResponseDto currency);
+    Currency toModel(CurrencyRequestDto currency);
+    List<Currency> toModels(List<CurrencyRequestDto> currency);
 }

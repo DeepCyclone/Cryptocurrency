@@ -8,7 +8,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import java.math.BigDecimal;
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -25,7 +25,18 @@ public class CurrencyServiceImpl implements CurrencyService {
     }
 
     @Override
-    public void updateCurrency(String currencyName, BigDecimal value) {
-//        currencyRepository.save()
+    public Currency fetchCurrencyBySymbol(String symbol){
+        return currencyRepository.findCurrencyBySymbol(symbol);
+    }
+
+    @Transactional
+    @Override
+    public void updateCurrencies(List<Currency> currencies) {
+        currencyRepository.updateCurrencies(currencies);
+    }
+
+    @Override
+    public void notify(String username,String currencySymbol){
+
     }
 }

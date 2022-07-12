@@ -4,8 +4,6 @@
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-j
-:.idea/dataSources/5c6b5862-0d91-4d31-b02e-db28f32867c4.xml,c\6\c6dfbf374c2970a48ac1abb1f69d0093de9fbcc7
 ?
 core/.gitignore,8\f\8f16fff20c9abaf19044c2da043c6677c1119e28
 F
@@ -38,13 +36,5 @@ G.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233,3\c\3c
 -.idea/httpRequests/2022-07-10T212121.400.json,e\3\e3526e6975e991b48ca0f9ed6b31b7d6fbe90c6b
 A
 core/build.gradle,9\1\918ca359602392354123b7d3b63264baf7ea9dde
-Y
-).idea/httpRequests/http-requests-log.http,a\1\a106acbd90b93270c10000b1d79e0fa515a6bc67
 V
 &.idea/httpRequests/http-client.cookies,3\7\37b0fae35443637ed0e21b8ad0ca1bf3c2c2e7e1
-k
-;persistence/src/main/java/com/idfinance/model/Currency.java,3\0\3094eddc2dc66cb275bda621e1c692c0df1b225e
-t
-Dweb/src/main/java/com/idfinance/dto/converter/CurrencyConverter.java,6\e\6ee43b3e939b3fd16c2002da6682d4b81f0dd196
-v
-Fpersistence/src/main/java/com/idfinance/metadata/CurrencyMetadata.java,f\c\fc9ab59e9d60444e605f7dcf61364f7eccdb497b

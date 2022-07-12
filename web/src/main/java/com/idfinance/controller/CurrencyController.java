@@ -4,6 +4,7 @@ import com.idfinance.dto.converter.CurrencyConverter;
 import com.idfinance.dto.response.CurrencyResponseDto;
 import com.idfinance.model.Currency;
 import com.idfinance.service.CurrencyService;
+import com.idfinance.service.UserCurrencyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,12 +22,14 @@ import java.util.List;
 public class CurrencyController {
 
     private final CurrencyService currencyService;
+    private final UserCurrencyService userCurrencyService;
     private final CurrencyConverter currencyConverter;
 
     @Autowired
 
-    public CurrencyController(CurrencyService currencyService, CurrencyConverter currencyConverter) {
+    public CurrencyController(CurrencyService currencyService, UserCurrencyService userCurrencyService, CurrencyConverter currencyConverter) {
         this.currencyService = currencyService;
+        this.userCurrencyService = userCurrencyService;
         this.currencyConverter = currencyConverter;
     }
 
@@ -37,13 +40,16 @@ public class CurrencyController {
         final List<CurrencyResponseDto> currenciesDtos = currencyConverter.fromModels(currencies);
         return new ResponseEntity<>(currenciesDtos, HttpStatus.OK);
     }
-    @GetMapping(value = "/{id:\\d+}")
-    public ResponseEntity<String> retrieveCurrencyInfo(@RequestParam String currencyName, @PathVariable String id){
-        return new ResponseEntity<>("123", HttpStatus.OK);
+    @GetMapping(value = "/{currencyName}")
+    public ResponseEntity<CurrencyResponseDto> retrieveCurrencyInfo(@PathVariable String currencyName){
+        final Currency currencyInfo = currencyService.fetchCurrencyBySymbol(currencyName);
+        final CurrencyResponseDto currencyResponseDto = currencyConverter.fromModel(currencyInfo);
+        return new ResponseEntity<>(currencyResponseDto, HttpStatus.OK);
     }
 
     @PostMapping(value = "/notify")
     public ResponseEntity<Void> notify(@RequestParam String username,@RequestParam String currencySymbol){
+        userCurrencyService.registerNotificationOnCurrency(username, currencySymbol);
         return new ResponseEntity(HttpStatus.OK);
     }
 }

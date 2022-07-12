@@ -7,5 +7,7 @@ import java.util.List;
 
 public interface CurrencyService {
     List<Currency> fetchCurrencies(int page, int size);
-    void updateCurrency(String currencyName, BigDecimal value);
+    Currency fetchCurrencyBySymbol(String symbol);
+    void updateCurrencies(List<Currency> currencies);
+    void notify(String username,String currencySymbol);
 }

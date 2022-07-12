@@ -1,3 +1,63 @@
+POST http://localhost:8080/currency/notify
+
+<> 2022-07-13T000018.400.json
+
+###
+
+GET http://localhost:8080/currency?limit=10
+
+<> 2022-07-12T212649.200.json
+
+###
+
+GET http://localhost:8080/currency/BTC
+
+<> 2022-07-12T212646.200.json
+
+###
+
+GET http://localhost:8080/currency/BTC
+
+<> 2022-07-12T212234.200.json
+
+###
+
+GET http://localhost:8080/currency/BTC
+
+<> 2022-07-12T212158.200.txt
+
+###
+
+GET http://localhost:8080/currency/BTC
+
+<> 2022-07-12T212151.200.txt
+
+###
+
+GET http://localhost:8080/currency/BTC
+
+<> 2022-07-12T211638.400.json
+
+###
+
+GET http://localhost:8080/currency?limit=10
+
+<> 2022-07-12T211507.200.json
+
+###
+
+GET http://localhost:8080/currency
+
+<> 2022-07-12T211426-1.200.json
+
+###
+
+GET http://localhost:8080/currency
+
+<> 2022-07-12T211426.200.json
+
+###
+
 GET http://localhost:8080/currency
 
 <> 2022-07-10T212257.500.json
